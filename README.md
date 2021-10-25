@@ -1,29 +1,25 @@
-# React with Authentication
+# Streaming Website with Node-Media-Server
 ## Default User
   - Username: `admin`
   - Password: `asd123`
 
-## Start front-end
-### don't forget to install node dependencies `npm i`
+## Setup
 ```
-cd frontend
-```
-```
-npm start
-```
-## Start back-end
-### don't forget to install python module `pip install -r requirements.txt`
-```
-cd backend
+npm --prefix backend/app i
 ```
 ```
-python server.py
+npm --prefix frontend i
 ```
-## Index Page
 ```
-http://localhost:3000
+cd backend && pip install -r requirements.txt
 ```
-## API URL - Swagger UI
+
+## Start
 ```
-http://localhost:9999/api/docs
+python run.py
 ```
+
+#### Index Page `http://localhost:3000`
+#### API URL - Swagger UI `http://localhost:9999/api/docs`
+#### RTMP Server `http://localhost:5000/admin` username: `admin` password: `nms2021`
+

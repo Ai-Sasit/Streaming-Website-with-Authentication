@@ -4,6 +4,8 @@
   - Password: `asd123`
 ## Download ffmpeg and add to `/backend/App`
   - https://www.ffmpeg.org/download.html
+## SQLAlchemy Database URL
+  - https://docs.sqlalchemy.org/en/14/core/engines.html
 
 ## Setup
 ```
